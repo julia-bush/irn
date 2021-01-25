@@ -1,8 +1,7 @@
-numpy>=1.16.3
+numpy
 cython
-imageio>=2.5.0
-scikit-image>=0.15.0
-chainercv>=0.12.0
+imageio
+scikit-image
+chainercv
 git+https://github.com/lucasb-eyer/pydensecrf.git
-torch==1.7.1+cu101
-torchvision==0.8.2+cu101
+pip install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
